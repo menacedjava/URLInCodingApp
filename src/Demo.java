@@ -1,5 +1,9 @@
+import java.net.URLEncoder;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
 
-public class Main {
+public class Demo {
         public static String encode(String text) {
             return URLEncoder.encode(text, StandardCharsets.UTF_8);
         }
